@@ -7,4 +7,7 @@ authors:
     given-names: Yannik
 version: 1.0.0
 date-released: 2026-10-26
+doi: 10.5281/zenodo.23667142
+repository-code: https://github.com/PfluYa/Onshore_Disamenity_openSource
+license: MIT
 abstract: "Reproduction code for German onshore wind cost-potential curves with local disamenities."
