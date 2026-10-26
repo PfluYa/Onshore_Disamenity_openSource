@@ -124,7 +124,7 @@ The exact input edition is **RWI-GEO-REDX V16, Scientific Use File**, DOI [10.78
 
 ### Destatis municipality-center coordinates (13)
 
-`Gemeindekoordinaten AuszugGV2QAktuell.xlsx` is a manually processed extract of the [Destatis quarterly municipality directory](https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Administrativ/Archiv/GVAuszugQ/AuszugGV2QAktuell.html). The 'Frondel module' reads worksheet **`Grossstaedte`**, columns **`Name`, `Einwohner`, `Lon`, `Lat`**. Cities in that list determine the urban/rural distance classification (10-km distance criterion). Because the list was manually assembled, simply downloading a newer municipality directory will not directly replicate the list. A public copy of the author's exact prepared list is preferable after checking file metadata and any source-specific terms.
+`Gemeindekoordinaten AuszugGV2QAktuell.xlsx` is a manually processed extract of the [Destatis quarterly municipality directory](https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Administrativ/Archiv/GVAuszugQ/AuszugGV2QAktuell.html). The 'Frondel module' reads worksheet **`Grossstaedte`**, columns **`Name`, `Einwohner`, `Lon`, `Lat`**. Cities in that list determine the urban/rural distance classification (10-km distance criterion). The list was manually assembled.
 
 ### BfN / Roth landscape scenic beauty (14)
 
