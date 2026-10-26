@@ -1,0 +1,13 @@
+# Install into a dedicated environment; record package versions after the final run.
+# These are intentionally minimum broad dependencies, not a frozen lockfile.
+numpy
+pandas
+geopandas
+scipy
+matplotlib
+rasterio
+xarray
+pyarrow
+shapely
+openpyxl
+netCDF4

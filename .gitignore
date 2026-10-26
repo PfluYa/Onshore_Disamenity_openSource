@@ -1,0 +1,57 @@
+# Keep the input-data documentation in Git; ignore downloaded and licensed inputs.
+/Input Data/*
+!/Input Data/README.md
+
+# Generated or archived results, large grids, and historic scripts
+/Output/
+/Output_*/
+/Archive Output/
+/Archive scripts/
+/Archive_*/
+/output/
+/results/
+
+# Common large or geospatial input/output formats anywhere in the repository
+*.parquet
+*.arrow
+*.feather
+*.nc
+*.nc4
+*.grib
+*.grb
+*.tif
+*.tiff
+*.shp
+*.shx
+*.dbf
+*.gpkg
+*.gdb
+*.geojson
+*.h5
+*.hdf5
+*.zip
+*.7z
+*.rar
+
+# Local temporary files and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.spyproject/
+.spyderproject/
+.venv/
+venv/
+.env
+.env.*
+*.egg-info/
+build/
+dist/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+~$*
+
+# Curated but manually reviewed Zenodo export, generated locally
+/Zenodo_Results_Export/
